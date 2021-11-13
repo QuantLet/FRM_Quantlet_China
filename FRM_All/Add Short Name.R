@@ -25,29 +25,17 @@ for (i in c(1:length(Total_Cor$Name))){
   Total_Cor$ShortName[i] = sName
   Total_Cor$ShortSector[i] = sSector
 }
-
+Total_Cor$Short_N_Sector = paste0(Total_Cor$ShortName, '(', Total_Cor$ShortSector, ')')
+UniName = unique(Total_Cor$Short_N_Sector)
+for (iName in UniName){
+  loc = which(Total_Cor$Short_N_Sector == iName)
+  if (length(loc) >= 2){
+    for (iLoc in loc[2:length(loc)]){
+      Total_Cor$Short_N_Sector[iLoc] = paste0(substr(Total_Cor$Name[iLoc], 1,4), '(', Total_Cor$ShortSector[iLoc], ')')
+    }
+    print(iName)
+  }
+}
 library(xlsx) 
 write.xlsx(Total_Cor, paste0(output_path, "/Name_Stock_20210529.xlsx"))
 
-FRM_index = read.csv(paste0(output_path, "/Lambda/FRM_", channel, "_index.csv"), header = TRUE)
-FRM_index$VIX = scale(all_prices$VXFXI.INDEX[65:nrow(all_prices)])
-FRM_index$FRM = scale(FRM_index$FRM) 
-
-FRM_index$Date =  all_prices$ticker[65:nrow(all_prices)]
-FRM_index$Date = as.Date(FRM_index$Date)
-datebreaks <- seq(FRM_index$Date[1], FRM_index$Date[length(FRM_index$Date)],
-                  by = "1 month")
-
-png(paste0(output_path, "/RiskMeasure.png"), width = 900, height = 600, bg = "transparent")
-print(ggplot()+geom_line(data = FRM_index,aes(x = Date,y = VIX),colour="black",size=1)+
-        geom_line(data = FRM_index,aes(x = Date,y = FRM),colour="red",size=1)+
-        scale_x_date(breaks = datebreaks) + ylab("Z-Score")+
-        theme(axis.text.x = element_text(angle = 30, hjust = 1),
-              panel.grid.major =element_blank(),
-              panel.grid.minor = element_blank(),
-              panel.background = element_rect(fill = "transparent",colour = NA),
-              plot.background = element_rect(fill = "transparent",colour = NA),
-              axis.line = element_line(colour = "black"), legend.position="none") #
-)
-
-dev.off()
