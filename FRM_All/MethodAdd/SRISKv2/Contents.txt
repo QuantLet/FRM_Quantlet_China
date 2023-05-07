@@ -1,0 +1,5 @@
+-> SRISKv2.m is MATLAB code that calculates SRISKv2.
+-> SRISKv2_and_SRISK.m is MATLAB code that calculates SRISKv2 and SRISK.
+	-> Note that both SRISKv2.m and SRISKv2_and_SRISK.m require that you have the MFEToolbox, which can be found at 	https://github.com/bashtage/mfe-toolbox/ 
+-> input_data.csv is an example file of the input data structure needed to run SRISK. The first column includes the date, and the second column the market return. Starting from the third column, the information on individual firms should be incorporated in blocks of four columns. The first one is the stock return, the second one is the market value of equity, the third one the book value of equity, and the fourth one the book value of assets. Note that the example file included is not sufficient to run the SRISKv2 MATLAB code.
+

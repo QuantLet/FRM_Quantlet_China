@@ -1,0 +1,22 @@
+Short ID	Mnemonic	TCode	Description
+Y	GDP251	5	Real GDP, Quantity Index (2000=100)
+Pi	CPIAUCSL	6	CPI All Items
+R	FYFF	2	Interest rate: Federal funds (effective) (% per annum)
+M	FM2	6	Money stock: M2 (bil$)
+C	GDP252	5	Real Personal Cons. Exp., Quantity Index
+IP	IPS10	5	Industrial production index: total
+U	LHUR	2	Unemp. rate: All workers, 16 and over (%)
+I	GPDIC96	5	Real gross domestic private investment
+MP	PSCCOMR	5	Real spot market price index: all commodities
+NB	FMRNBA	3	Depository inst reserves: non-borrowed (mil$)
+RT	FMRRA	6	Depository inst reserves: total (mil$)
+CU	UTL11	1	Capacity utilization: manufacturing (SIC)
+HS	HSFR	4	Housing starts: Total (thousands)
+PP	PWFSA	6	Producer price index: finished goods
+PC	GDP273	6	Personal Consumption Exp.: price index
+HE	CES275R	5	Real avg hrly earnings, non-farm prod. workers
+M1	FM1	6	Money stock: M1 (bil$)
+SP	FSPIN	5	S&Ps common stock price index: industrials
+IR	FYGT10	2	Interest rate: US treasury const. mat., 10-yr
+ER	EXRUS	5	US effective exchange rate: index number
+EN	CES002	5	Employees, non-farm: total private
