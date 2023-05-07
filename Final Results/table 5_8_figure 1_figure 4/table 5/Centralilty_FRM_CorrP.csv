@@ -1,0 +1,5 @@
+,FRM,degree_avg,closeness_avg,eigenvector_avg
+FRM,NA,0,0,0
+degree_avg,0,NA,0,4.77395900588817e-14
+closeness_avg,0,0,NA,0
+eigenvector_avg,0,4.77395900588817e-14,0,NA

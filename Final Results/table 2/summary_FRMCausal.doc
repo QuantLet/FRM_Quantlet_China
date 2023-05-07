@@ -1,0 +1,160 @@
+{\rtf1\ansi\deff0 {\fonttbl{\f0\fnil Garamond;}}
+{\info {\author .}{\company .}{\title .}}
+\deflang1033\plain\fs20
+{\footer\pard\qc\plain\f0\fs20\chpgn\par}
+{
+{
+{\b\qc\line Descriptive Statistics }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1800\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2600\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3600\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx4600\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx5600\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx6600\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx7600\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx8600\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx9600\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx10600
+\ql { {Variables}}\cell
+\qr { {Obs}}\cell
+\qr { {Mean}}\cell
+\qr { {Std. Dev.}}\cell
+\qr { {Min}}\cell
+\qr { {Max}}\cell
+\qr { {p1}}\cell
+\qr { {p99}}\cell
+\qr { {Skew.}}\cell
+\qr { {Kurt.}}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1800\cellx2600\cellx3600\cellx4600\cellx5600\cellx6600\cellx7600\cellx8600\cellx9600\cellx10600
+\ql { {FRM L5}}\cell
+\qr {{66903}}\cell
+\qr {{1.352}}\cell
+\qr {{.23}}\cell
+\qr {{1.095}}\cell
+\qr {{2.456}}\cell
+\qr {{1.124}}\cell
+\qr {{2.258}}\cell
+\qr {{2.416}}\cell
+\qr {{8.808}}\cell
+\row
+\ql { {FRM L21}}\cell
+\qr {{65511}}\cell
+\qr {{1.353}}\cell
+\qr {{.232}}\cell
+\qr {{1.095}}\cell
+\qr {{2.456}}\cell
+\qr {{1.124}}\cell
+\qr {{2.258}}\cell
+\qr {{2.383}}\cell
+\qr {{8.607}}\cell
+\row
+\ql { {FRM L5}}\cell
+\qr {{66903}}\cell
+\qr {{1.352}}\cell
+\qr {{.23}}\cell
+\qr {{1.095}}\cell
+\qr {{2.456}}\cell
+\qr {{1.124}}\cell
+\qr {{2.258}}\cell
+\qr {{2.416}}\cell
+\qr {{8.808}}\cell
+\row
+\ql { {Vola}}\cell
+\qr {{79170}}\cell
+\qr {{.02}}\cell
+\qr {{.009}}\cell
+\qr {{0}}\cell
+\qr {{.046}}\cell
+\qr {{0}}\cell
+\qr {{.046}}\cell
+\qr {{.553}}\cell
+\qr {{3.255}}\cell
+\row
+\ql { {VaR 5P}}\cell
+\qr {{79170}}\cell
+\qr {{-.03}}\cell
+\qr {{.019}}\cell
+\qr {{-.098}}\cell
+\qr {{.002}}\cell
+\qr {{-.098}}\cell
+\qr {{.002}}\cell
+\qr {{-1.1}}\cell
+\qr {{4.564}}\cell
+\row
+\ql { {DeltaVaR}}\cell
+\qr {{69533}}\cell
+\qr {{-.085}}\cell
+\qr {{.041}}\cell
+\qr {{-.217}}\cell
+\qr {{.007}}\cell
+\qr {{-.217}}\cell
+\qr {{.007}}\cell
+\qr {{-.507}}\cell
+\qr {{3.566}}\cell
+\row
+\ql { {SRisk}}\cell
+\qr {{76212}}\cell
+\qr {{4469.488}}\cell
+\qr {{17865.152}}\cell
+\qr {{0}}\cell
+\qr {{122000}}\cell
+\qr {{0}}\cell
+\qr {{122000}}\cell
+\qr {{4.992}}\cell
+\qr {{29.071}}\cell
+\row
+\ql { {log SRisk}}\cell
+\qr {{76212}}\cell
+\qr {{1.365}}\cell
+\qr {{3.32}}\cell
+\qr {{0}}\cell
+\qr {{11.712}}\cell
+\qr {{0}}\cell
+\qr {{11.712}}\cell
+\qr {{2.164}}\cell
+\qr {{5.97}}\cell
+\row
+\ql { {Leverage}}\cell
+\qr {{74373}}\cell
+\qr {{7.411}}\cell
+\qr {{4.307}}\cell
+\qr {{2.32}}\cell
+\qr {{16.871}}\cell
+\qr {{2.32}}\cell
+\qr {{16.871}}\cell
+\qr {{.585}}\cell
+\qr {{1.82}}\cell
+\row
+\ql { {maturity}}\cell
+\qr {{74373}}\cell
+\qr {{.564}}\cell
+\qr {{1.068}}\cell
+\qr {{0}}\cell
+\qr {{5.202}}\cell
+\qr {{0}}\cell
+\qr {{5.202}}\cell
+\qr {{2.144}}\cell
+\qr {{7.729}}\cell
+\row
+\ql { {MB Rank}}\cell
+\qr {{74373}}\cell
+\qr {{5.495}}\cell
+\qr {{2.898}}\cell
+\qr {{1}}\cell
+\qr {{10}}\cell
+\qr {{1}}\cell
+\qr {{10}}\cell
+\qr {{.005}}\cell
+\qr {{1.762}}\cell
+\row
+\ql { {Size}}\cell
+\qr {{74373}}\cell
+\qr {{.981}}\cell
+\qr {{.038}}\cell
+\qr {{.899}}\cell
+\qr {{1.052}}\cell
+\qr {{.899}}\cell
+\qr {{1.052}}\cell
+\qr {{-.07}}\cell
+\qr {{2.295}}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx10600{}\cell
+\row}
+
+
+\writepositionforappend
+}}
